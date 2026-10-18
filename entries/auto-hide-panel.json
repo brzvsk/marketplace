@@ -3,6 +3,9 @@
   "displayName": "Auto-hide Panel",
   "description": "Give the thread its full width back when you close the last tab in the right panel. The panel hides itself as soon as its last file or other content tab closes. Info and Diff do not count, and Info you open yourself stays open. Loading the plugin or switching threads never hides the panel.",
   "icon": "PanelRight",
+  "screenshots": [
+    "./screenshots/auto-hide-panel/demo.webp"
+  ],
   "overview": "./overview/auto-hide-panel.md",
   "tags": [
     "right-panel",
