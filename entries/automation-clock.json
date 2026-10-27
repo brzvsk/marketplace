@@ -1,0 +1,26 @@
+{
+  "id": "automation-clock",
+  "displayName": "Automation Clock",
+  "description": "See which sidebar threads run on a schedule: a small clock marks every thread an enabled automation works in. An automation that always runs in one thread marks that thread; one that starts a new thread per run marks its latest run. The clock takes the empty status slot, or sits left of a spinner, unread dot or draft in the spinner's muted tone. Hovering a row hides it, so the row's usual actions show. Requires the built-in Automations plugin; paused automations get no clock.",
+  "icon": { "url": "./icons/automation-clock-e15bb9a3.svg" },
+  "screenshots": [
+    "./screenshots/automation-clock/sidebar.png",
+    "./screenshots/automation-clock/hover.png"
+  ],
+  "overview": "./overview/automation-clock.md",
+  "tags": ["automations", "scheduled-runs", "cron", "recurring-tasks", "sidebar", "thread-list", "status-indicator"],
+  "author": {
+    "name": "brzvsk",
+    "github": "brzvsk",
+    "url": "https://github.com/brzvsk"
+  },
+  "category": "thread-management",
+  "source": {
+    "git": {
+      "url": "https://github.com/brzvsk/bb-plugins.git",
+      "subdir": "plugins/automation-clock",
+      "range": "^0.1.0",
+      "tagPrefix": "automation-clock/"
+    }
+  }
+}
